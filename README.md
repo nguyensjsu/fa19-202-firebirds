@@ -1,1 +1,2 @@
-# fa19-202-firebirds
+# Team Hackathon Project
+
