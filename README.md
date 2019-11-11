@@ -16,6 +16,9 @@
 ## Project Name
 ### YetToBeDecided
 
+## Architecture Diagram
+URL
+
 ## Burndown Map
 URL
 
@@ -33,6 +36,10 @@ URL
 
 ## UML Diagrams
 URL
+
+## Design Pattern Notes
+URL
+
 
 ## Sprint Meeting Report
 
