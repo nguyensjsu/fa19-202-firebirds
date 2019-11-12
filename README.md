@@ -23,10 +23,22 @@ URL
 URL
 
 ## UI Mock screen
-URL
+https://github.com/nguyensjsu/fa19-202-firebirds/blob/master/Requirements.docx
 
 ## Individual Contributions
-Listing individual contribution to the project.
+1. Sheethal Mathew
+
+
+2. Sonia Mannan
+
+
+3. Prathamesh Karva
+
+
+4. Mayura Dhivya Nehruji
+
+
+5. Harshada Baswaraj Jivane
 
 ## Project Task Board:
 URL
