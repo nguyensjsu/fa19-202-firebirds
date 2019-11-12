@@ -50,13 +50,13 @@ URL
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/StandUpScreenshots
 
 ## Retrospective
-URL
+https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ## UML Diagrams
-URL
+https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/UML
 
 ## Design Pattern Notes
-URL
+https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes
 
 
 ## Sprint Meeting Report
