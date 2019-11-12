@@ -47,7 +47,7 @@ URL
 URL
 
 ## Daily Standup
-URL
+https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/StandUpScreenshots
 
 ## Retrospective
 URL
