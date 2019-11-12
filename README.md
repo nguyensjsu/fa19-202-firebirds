@@ -46,6 +46,12 @@ URL
 ## Sprint Task Sheet:
 URL
 
+## Daily Standup
+URL
+
+## Retrospective
+URL
+
 ## UML Diagrams
 URL
 
@@ -68,4 +74,3 @@ URL
 
 ## Game Demo
 URL
-
