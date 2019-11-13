@@ -44,8 +44,8 @@ https://github.com/nguyensjsu/fa19-202-firebirds/blob/master/Requirements.docx
 https://github.com/nguyensjsu/fa19-202-firebirds/projects/1
 
 ## Sprint Task Sheet:
-URL
 
+https://github.com/nguyensjsu/fa19-202-firebirds/SprintTaskSheet.xlsx
 ## Daily Standup
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/StandUpScreenshots
 
