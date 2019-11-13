@@ -32,7 +32,7 @@ https://github.com/nguyensjsu/fa19-202-firebirds/blob/master/Requirements.docx
 2. Sonia Mannan
 
 
-3. Prathamesh Karva
+3. Prathamesh Karve
 
 
 4. Mayura Dhivya Nehruji
