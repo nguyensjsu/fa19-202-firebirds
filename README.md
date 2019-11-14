@@ -56,7 +56,7 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/UML
 
 ## Design Pattern Notes
-https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes
+https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes.docx
 
 
 ## Sprint Meeting Report
@@ -69,8 +69,5 @@ Link to markdown file of tasks done as an individual for week 1.
 
 Link to markdown file of tasks done as an individual for week 2.
 
-## Ad Video
-URL
-
 ## Game Demo
-URL
+YouTube URL
