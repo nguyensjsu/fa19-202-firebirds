@@ -18,19 +18,6 @@ public class Aliens extends Actor implements Observer
         else {
             counterLaunch ++;
         }
-        if (getX() == 0) {
-            getWorld().removeObject(this);
-            MyWorld.myWorld.removeObserver(this);
-            return;
-        }
-        // alien has been hit by a weapon
-        if (this.getOneIntersectingObject(Weapon.class) != null) {
-            // update score by 10
-            getWorld().getObjects(Counter.class).get(0).addScore(10);
-            // remove the alien
-            getWorld().removeObject(this);
-            return;
-        }
     }
     
     public void update(int X1, int X2) {
