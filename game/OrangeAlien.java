@@ -13,11 +13,11 @@ public class OrangeAlien extends Aliens
     }
     public void act() 
     {
+       super.act();
        if (getX() == 0) {
             getWorld().removeObject(this);
             MyWorld.myWorld.removeObserver(this);
             return;
        }
-       super.act();
     }    
 }
