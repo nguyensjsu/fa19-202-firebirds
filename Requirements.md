@@ -29,4 +29,4 @@ Greenfoot
 8.	In the end, a screen displays the final score of the user.
 
 Following picture is just a basic sample of participants of the game – 
-
+![](images/mock1.png)
