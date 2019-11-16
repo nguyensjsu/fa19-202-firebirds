@@ -14,10 +14,8 @@
 
 
 ## Project Name
-### YetToBeDecided
+### Astral Alpha
 
-## Architecture Diagram
-URL
 
 ## Burndown Map
 URL
@@ -63,11 +61,11 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes.
 
 **Week 1**
 
-Link to markdown file of tasks done as an individual for week 1.
+https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/WeeklyReport/Week-1
 
 **Week 2**
 
-Link to markdown file of tasks done as an individual for week 2.
+https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/WeeklyReport/Week-2
 
 ## Game Demo
 YouTube URL
