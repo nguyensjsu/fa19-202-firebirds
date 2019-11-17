@@ -15,7 +15,7 @@ public class Score extends World
     
         
      showText(" You Could Score A :", 240, 250);
-     showText(Integer.toString(MyWorld.counter.getValue()),370,250);
+     showText(Integer.toString(MyWorld.getHealthCounter().getValue()),370,250);
      
     }
     
