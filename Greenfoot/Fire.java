@@ -1,18 +1,25 @@
 import greenfoot.*; 
 
 
-public class Fire extends Weapon {
-	
-	public Fire() {
-		
-		destroyedArea = 150;
-	
-		weaponDecorator = new StrongBlast(new WideBlast((new ConcreteBlast())));
-	}
+public class Fire extends Weapon
+{
+    private int damage;
 
-	public void act() {
-		
-		super.act();
-	}
-
+    public Fire()
+    {
+        destroyedArea = 150;
+        weaponDecorator = new StrongBlast(new WideBlast((new ConcreteBlast())));
+        damage = 20;
+    }
+    
+    public void act()
+    {
+        super.act();
+    }
+    
+    // Overide the default damage
+    public int getDamage()
+    {
+        return damage;
+    }
 }
