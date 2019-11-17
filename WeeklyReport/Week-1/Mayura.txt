@@ -1,0 +1,13 @@
+Day 1 : Game Idea Discussion 
+
+Day 2 : Game Implementation Discussion with the team
+
+Day 3 : Setting up README for game info
+
+Day 4 : Ideation of user story video
+
+Day 5 : Open Source Images and Audio Collection for the game.
+
+Day 6 : Worked on user story video with team
+
+Day 7 : Demo of user story video
