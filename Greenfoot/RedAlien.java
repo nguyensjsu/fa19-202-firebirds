@@ -3,7 +3,10 @@ import greenfoot.*;
 
 public class RedAlien extends Aliens
 {
+    // determines how many shots it takes to defeat the Alien
     private int health;
+    
+    // points the player will get for defeating Alien
     private int score;
 
     public RedAlien()
@@ -16,18 +19,23 @@ public class RedAlien extends Aliens
     public void act() 
     {
        super.act();
-       if (getX() == 0) {
+       if (getX() == 0)
+       {
             getWorld().removeObject(this);
             MyWorld.myWorld.removeObserver(this);
             return;
        }
+       
        // alien has been hit by a weapon
-       if (this.getOneIntersectingObject(Weapon.class) != null) {
-            // update score by 10
-            getWorld().getObjects(Counter.class).get(0).addScore(score);
-            health -= score;
+       Weapon weapon = (Weapon) this.getOneIntersectingObject(Weapon.class);
+       if (weapon != null)
+       {
+            health -= weapon.getDamage();
        }
-       if (health == 0) {
+       if (health == 0)
+       {
+           // update score by 10
+           getWorld().getObjects(Counter.class).get(0).addScore(score);
            getWorld().removeObject(this);
            return;
        }
