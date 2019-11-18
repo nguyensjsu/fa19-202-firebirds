@@ -4,6 +4,6 @@ public class HelpMenu extends World
 
     public HelpMenu()
     {    
-        super(600, 400, 1); 
+        super(600, 300, 1); 
     }
 }

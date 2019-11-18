@@ -1,25 +1,27 @@
-import greenfoot.*;  
+import greenfoot.*; 
 
 
 public class ButtonHelp extends Button implements IInvoker
 {
-   ICommand invoke_cmd;
+   ICommand cmd;
     
     public void click(){
         
-        invoke_cmd.execute();
+        cmd.execute();
     }
     
-    public void setCommand(ICommand command){
-        
-        this.invoke_cmd=command;
-    }
-    
-    public void act(){
+      public void act(){
     
          if (Greenfoot.mouseClicked(this))  
         {  
            click();
         }  
     }
+    
+    public void setCommand(ICommand cmd){
+        
+        this.cmd=cmd;
+    }
+    
+  
 }
