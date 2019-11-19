@@ -32,8 +32,8 @@ public class MenuWorld extends World
         bp.setCommand(pc);
         
         
-        addObject(bp, 150, 251);
-        addObject(bh, 370, 251);
+        addObject(bp, 450, 251);
+        addObject(bh, 590, 251);
        
         //Greenfoot.playSound("backgroundmusic.mp3");
         
