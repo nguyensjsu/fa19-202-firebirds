@@ -7,6 +7,9 @@ public class OrangeAlien extends Aliens
     private int score;
     
     public OrangeAlien() {
+        GreenfootImage image = getImage();
+        image.scale(250, 250);
+        setImage(image);
     	score = 50;
     	health = 100;
     	alienexplosiveFactory = new MetalFactory();
