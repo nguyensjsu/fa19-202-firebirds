@@ -28,7 +28,7 @@ public class MyWorld extends World implements Subject
     public MyWorld()
     {    
      
-        super(650, 500, 1); 
+        super(1100, 700, 1); 
         myWorld = this;
         prepare();
         setBackground(levelsStrategy.getBackgroundImage());

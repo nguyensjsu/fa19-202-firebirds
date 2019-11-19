@@ -8,7 +8,7 @@ public class MenuWorld extends World
     public MenuWorld()
     {    
         
-        super(650, 500, 1); 
+        super(1100, 700, 1); 
         prepare();
     }
     
