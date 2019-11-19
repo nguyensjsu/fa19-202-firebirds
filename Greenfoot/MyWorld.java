@@ -52,41 +52,44 @@ public class MyWorld extends World implements Subject
         healthBazookaCounter= new Counter();
         healthBazookaCounter.setValue(100);
         healthBazookaCounter.setPrefix("Health : ");
-        addObject(healthBazookaCounter, 200, 30);
-        
+        addObject(healthBazookaCounter, 200, 30); 
   
     }
  
   
-    private void scrollBackground()  
-    {  
+    private void scrollBackground()  {
+
         GreenfootImage g = new GreenfootImage(getBackground());  
-        getBackground().drawImage(g, -levelsStrategy.getSpeed(), 0);  
-        getBackground().drawImage(g, getWidth()-11, 0);  
+        getBackground().drawImage(g, - levelsStrategy.getSpeed(), 0);  
+        getBackground().drawImage(g, getWidth() - 11, 0);  
+        //travelDistance = travelDistance.add(new BigDecimal(6));
         travelDistance = travelDistance.add(new BigDecimal(levelsStrategy.getSpeed()));
     }
-      @Override
+
+    @Override
     public void act() {
         
         super.act();
-        if(travelDistance.remainder(new BigDecimal(levelsStrategy.getRandom())).intValue() == 0){
+
+        if(travelDistance.remainder(new BigDecimal(levelsStrategy.getRandom())).intValue() == 0) {
             Aliens aliens = IAliens.getAliens(GameSupport.getRandomAlien());
             addObject(aliens, 1100, 650);
-            
         }
-        if(scoreCntr.getValue() > levelsStrategy.getSecondLevelScoreActivation()){
+
+        if(scoreCntr.getValue() > levelsStrategy.getSecondLevelScoreActivation()) {
             levelsStrategy = levelsStrategy.getSecondLevelStrategy();
-            if(levelsStrategy!=null)
+            if(levelsStrategy != null)
             setBackground(levelsStrategy.getBackgroundImage());
         }
-        if(getBackground()!=null)
-        scrollBackground();
+
+        if(getBackground() != null)
+            scrollBackground();
     }
 
     public void notifyObserver(int X1, int X2) {
         
         Iterator<Entry<Integer, Observer>> entry = aliens.entrySet().iterator();
-        while(entry.hasNext()){
+        while(entry.hasNext()) {
             entry.next().getValue().update(X1, X2);
         }
     } 

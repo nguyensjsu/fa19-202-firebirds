@@ -7,7 +7,7 @@ public class Fire extends Weapon
 
     public Fire()
     {
-        destroyedArea = 150;
+        destroyedArea = 350;
         weaponDecorator = new StrongBlast(new WideBlast((new ConcreteBlast())));
         damage = 20;
     }

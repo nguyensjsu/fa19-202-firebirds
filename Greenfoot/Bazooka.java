@@ -140,7 +140,7 @@ public class Bazooka extends Actor
 
         shootLaser();
         
-        if (getY() >= 450)
+        if (getY() >= 650)
         {
             getWorld().addObject(new StrongBlast(), getX(), getY());
             getWorld().removeObject(this);
