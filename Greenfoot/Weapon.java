@@ -15,7 +15,7 @@ public class Weapon extends Actor implements WeaponsInterface
         setLocation(getX(), getY()+10); 
         if(getY() >= 640)
         {
-            MyWorld.myWorld.notifyObserver(getX()-destroyedArea,getX()+destroyedArea);
+            MyWorld.myWorld.notifyObserver(getX()- destroyedArea,getX()+destroyedArea);
             weaponDecorator.generateBlast(getX(), getY());
             
             getWorld().removeObject(this);

@@ -3,47 +3,70 @@ import greenfoot.Greenfoot;
 
 public class LevelSecondStrategy implements LevelsStrategy{
 
-	private int nextlevelScoreActivation = 200;
+	private int winningScore = 200;
 	
 	
 	public String getBackgroundImage() {
 		
-		return "planet.png";
+		return "l2space.gif";
 	}
+
 	public double getAngle(int x2, int y2) {
-		
-		return GameSupport.getAngle(x2, y2, Bazooka.planex, Bazooka.planey) + 3;
+
+		return GameSupport.getAngleInRange(40, 60) + 180;
 	}
 
-	
-	public int getRandom() {
-	
-		return 505;
-	}
-
-	public int getSecondLevelScoreActivation() {
-		return nextlevelScoreActivation;
-	}
-public int getSpeed() {
-		
-		return 10;
-	}
-
-	public LevelsStrategy getSecondLevelStrategy() {
+	public LevelsStrategy getNextLevelStrategy() {
 		
 		Greenfoot.setWorld(new Score());
-		return null;
+		return this;
+	}
+
+	public int getLevelPassingScore() {
+		return winningScore;
+	}
+
+    public int getSpeed() {
+		
+		return 9;
 	}
 	
-public int getStartCounterForLaunch() {
+    public int getStartCounterForLaunch() {
 		
 		return 40;
 	}
-	public int getCounterToRelaseExplosive() {
+
+	public int getCounterToReleaseExplosive() {
 	
 		return 80;
 	}
 
+	public int getRandom() {
+	
+		return 230;
+	}
+
+	/*
+
+	public int getStartCounterForLaunch() {
+        return 60;
+    }
+
+   
+    public int getRandom(){
+        return 460;
+    }
+
+    public int getSpeed() {
+    
+        return 6;
+    }
+
+    public int getCounterToReleaseExplosive() {
+       
+        return 80;
+    }
+*/
 	
 
 }

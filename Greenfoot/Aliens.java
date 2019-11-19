@@ -7,15 +7,14 @@ public class Aliens extends Actor implements Observer
     protected AlienExplosiveFactory alienexplosiveFactory;
     private boolean explosiveLaunch = false;
     private int counterLaunch = MyWorld.levelsStrategy.getStartCounterForLaunch();
-    private int counterToRelaseExplosive = MyWorld.levelsStrategy.getCounterToRelaseExplosive();
+    private int counterToReleaseExplosive = MyWorld.levelsStrategy.getCounterToReleaseExplosive();
     
     public void act() {
         move(-MyWorld.levelsStrategy.getSpeed());
-        if (!explosiveLaunch && counterLaunch > counterToRelaseExplosive) {
-            getWorld().addObject(alienexplosiveFactory.getExplosive(), getX(), getY()-20);
+        if (!explosiveLaunch && counterLaunch > counterToReleaseExplosive) {
+            getWorld().addObject(alienexplosiveFactory.getExplosive(), getX(), getY() - 20);
             counterLaunch = 0;
-        }
-        else {
+        } else {
             counterLaunch ++;
         }
     }

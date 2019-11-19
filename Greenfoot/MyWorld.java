@@ -13,8 +13,6 @@ import greenfoot.*;
 
 public class MyWorld extends World implements Subject
 {
-
-    
     
     static public Counter healthBazookaCounter;
     static public LevelsStrategy levelsStrategy = new LevelFirstStrategy();
@@ -62,8 +60,11 @@ public class MyWorld extends World implements Subject
         GreenfootImage g = new GreenfootImage(getBackground());  
         getBackground().drawImage(g, - levelsStrategy.getSpeed(), 0);  
         getBackground().drawImage(g, getWidth() - 11, 0);  
-        //travelDistance = travelDistance.add(new BigDecimal(6));
         travelDistance = travelDistance.add(new BigDecimal(levelsStrategy.getSpeed()));
+    }
+
+    public void levelUp() {
+        levelsStrategy = levelsStrategy.getNextLevelStrategy();
     }
 
     @Override
@@ -72,14 +73,15 @@ public class MyWorld extends World implements Subject
         super.act();
 
         if(travelDistance.remainder(new BigDecimal(levelsStrategy.getRandom())).intValue() == 0) {
+        //if(travelDistance.remainder(new BigDecimal(505)).intValue() <= 0) {
             Aliens aliens = IAliens.getAliens(GameSupport.getRandomAlien());
             addObject(aliens, 1100, 650);
         }
 
-        if(scoreCntr.getValue() > levelsStrategy.getSecondLevelScoreActivation()) {
-            levelsStrategy = levelsStrategy.getSecondLevelStrategy();
+        if(scoreCntr.getValue() > levelsStrategy.getLevelPassingScore()) {
+            levelUp() ;
             if(levelsStrategy != null)
-            setBackground(levelsStrategy.getBackgroundImage());
+                setBackground(levelsStrategy.getBackgroundImage());
         }
 
         if(getBackground() != null)
