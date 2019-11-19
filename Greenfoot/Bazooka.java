@@ -57,7 +57,7 @@ public class Bazooka extends Actor
                 else
                 {
                     int scoreChange = MyWorld.healthBazookaCounter.getValue() - health;
-                    if(scoreChange >= 0 )
+                    if(scoreChange > 0 )
                     {
                         MyWorld.healthBazookaCounter.addScore(-health);
                     }
