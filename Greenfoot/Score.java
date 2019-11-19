@@ -6,8 +6,7 @@ public class Score extends World
 
     public Score()
     {    
-        super(650, 500, 1); 
-        
+        super(1100, 700, 1); 
         showFinalScore();
     }
     
