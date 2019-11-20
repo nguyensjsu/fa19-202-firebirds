@@ -42,7 +42,15 @@ URL
 https://github.com/nguyensjsu/fa19-202-firebirds/projects/1
 
 ## Sprint Task Sheet:
-URL
+
+Sprint(Screenshot) 
+
+
+Burndown (Screenshot)
+
+
+https://github.com/nguyensjsu/fa19-202-firebirds/blob/master/SprintTaskSheet.xlsx
+
 
 ## Daily Standup
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/StandUpScreenshots
@@ -52,9 +60,17 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ## UML Diagrams
 
+Command Pattern
+
 ![Command](https://user-images.githubusercontent.com/55175861/69271649-155c8a00-0b8a-11ea-93e4-689e42b9469d.png)
 
+
+Factory Pattern
+
 ![Factory](https://user-images.githubusercontent.com/55175861/69271894-93209580-0b8a-11ea-9593-d6a98aed77d7.png)
+
+
+Decorator Pattern
 
 ![decorator](https://user-images.githubusercontent.com/55175861/69271830-6ff5e600-0b8a-11ea-897c-72a9bca88d1e.png)
 
