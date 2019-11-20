@@ -51,7 +51,8 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/StandUpScreenshots
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ## UML Diagrams
-https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/UML
+
+![Command](https://user-images.githubusercontent.com/55175861/69271649-155c8a00-0b8a-11ea-93e4-689e42b9469d.png)
 
 ## Design Pattern Notes
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes
