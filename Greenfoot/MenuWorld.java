@@ -33,7 +33,7 @@ public class MenuWorld extends World
         
         
         addObject(bp, 450, 251);
-        addObject(bh, 590, 251);
+        addObject(bh, 650, 251);
        
         //Greenfoot.playSound("backgroundmusic.mp3");
         
