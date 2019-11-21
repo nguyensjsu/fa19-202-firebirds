@@ -4,6 +4,10 @@ import greenfoot.*;
 public class ButtonPlay extends Button implements IInvoker
 {
    ICommand invoke_cmd;
+    ButtonPlay(){
+        GreenfootImage image = new GreenfootImage("play-button.png");
+        setImage(image);
+    }
     
     public void click(){
         

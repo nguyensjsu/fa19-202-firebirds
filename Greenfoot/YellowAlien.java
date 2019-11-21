@@ -7,6 +7,8 @@ public class YellowAlien extends Aliens
     private int score;
     
     public YellowAlien() {
+        GreenfootImage image = new GreenfootImage("alieny.png");
+        setImage(image);
     	score = 40;
     	health = 60;
     	alienexplosiveFactory = new GrenadeFactory();
