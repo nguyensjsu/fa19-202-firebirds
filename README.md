@@ -62,7 +62,7 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 Activity Diagram
 
-![Activity](https://user-images.githubusercontent.com/55175861/69290299-5cf80b80-0bb4-11ea-84ec-898069040c9e.png)
+![Activity](https://user-images.githubusercontent.com/55175861/69300035-fdefc200-0bc6-11ea-8218-6dfddbbe229f.png)
 
 
 Command Pattern
