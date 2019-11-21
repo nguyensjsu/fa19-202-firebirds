@@ -11,9 +11,15 @@ public class Score extends World
     }
     
     public void showFinalScore()
-    {   
-        showText(" Your Final Score :", 240, 250);
-        showText(Integer.toString(MyWorld.getScoreCounter().getValue()),370,250);
+    {  
+        String message = " You win! Your Final Score: ";
+
+        if (MyWorld.getHealthCounter().getValue() <= 0) {
+            message = " You lost, Game over! Your Final Score: ";
+        }
+
+        showText(message, 240, 250);
+        showText(Integer.toString(MyWorld.getScoreCounter().getValue()), 480, 250);
     }
     
     

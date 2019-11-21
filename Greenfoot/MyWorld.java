@@ -76,6 +76,9 @@ public class MyWorld extends World implements Subject
         //if(travelDistance.remainder(new BigDecimal(505)).intValue() <= 0) {
             Aliens aliens = IAliens.getAliens(GameSupport.getRandomAlien());
             addObject(aliens, 1100, 650);
+            generateRandomAlien();
+            generateRandomAlien();
+            generateRandomAlien();
         }
 
         if(scoreCntr.getValue() > levelsStrategy.getLevelPassingScore()) {

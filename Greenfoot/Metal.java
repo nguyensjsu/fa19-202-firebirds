@@ -5,6 +5,6 @@ public class Metal extends AlienExplosives
    
     public Metal() 
     {
-       healthCount = 5;
+       healthCount = 15;
     }    
 }
