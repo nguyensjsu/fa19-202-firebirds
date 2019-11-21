@@ -5,7 +5,7 @@ import java.math.BigInteger;
 import java.util.Iterator;
 import java.util.Map.Entry;
 import java.util.concurrent.ConcurrentHashMap;
-
+import java.util.Random;
 
 
 import greenfoot.*;  
@@ -19,6 +19,7 @@ public class MyWorld extends World implements Subject
     static private ConcurrentHashMap<Integer, Observer> aliens = new ConcurrentHashMap <Integer, Observer>();
     static public Counter scoreCntr;
     static BigDecimal travelDistance = new BigDecimal(0);
+    private Random rand;
 
     public static MyWorld myWorld = new MyWorld();
     
@@ -31,6 +32,7 @@ public class MyWorld extends World implements Subject
         prepare();
         setBackground(levelsStrategy.getBackgroundImage());
         levelsStrategy = new LevelFirstStrategy();
+        rand = new Random();
     }
 
     private void prepare()
@@ -65,6 +67,14 @@ public class MyWorld extends World implements Subject
 
     public void levelUp() {
         levelsStrategy = levelsStrategy.getNextLevelStrategy();
+    }
+
+    private void generateRandomAlien() {
+        Aliens aliens = IAliens.getAliens(GameSupport.getRandomAlien());
+        int offset = 15;
+        int xCoord = rand.nextInt(((this.getWidth() - offset) - offset) + 1);
+        int yCoord = rand.nextInt(((this.getHeight() - offset) - offset) + 1);
+        this.addObject(aliens, xCoord, yCoord);
     }
 
     @Override
