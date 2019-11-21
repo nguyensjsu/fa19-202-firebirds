@@ -4,6 +4,6 @@ public class Grenade extends AlienExplosives
     
     public Grenade() 
     {
-        healthCount = 5;
+        healthCount = 10;
     }    
 }

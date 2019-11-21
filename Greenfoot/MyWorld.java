@@ -84,6 +84,7 @@ public class MyWorld extends World implements Subject
             addObject(aliens, 1100, 650);
             generateRandomAlien();
             generateRandomAlien();
+            generateRandomAlien();
         }
 
         if(scoreCntr.getValue() > levelsStrategy.getLevelPassingScore()) {

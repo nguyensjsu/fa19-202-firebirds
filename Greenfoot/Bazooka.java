@@ -19,6 +19,8 @@ public class Bazooka extends Actor
    
     static int planex = 0;
     static int planey = 0;
+
+    private static final int totalHealth = 100;
     
     //  health
     Counter healthCounter = MyWorld.getHealthCounter();
@@ -27,6 +29,21 @@ public class Bazooka extends Actor
     private Bazooka ()
     {
         weaponDecorator = new StrongBlast(new ConcreteBlast());
+    }
+
+    private int getExplosivesDamage(int playerHealth, AlienExplosives explosive) {
+        int health = explosive.getHealthCount();
+
+        // increase damage as player loses health
+        if (playerHealth < (totalHealth / 2)) {
+            health *= 2;
+        }
+
+        else if (playerHealth < (totalHealth / 4)) {
+            health *= 3;
+        }
+
+        return health;
     }
     
     public void act()
@@ -45,7 +62,8 @@ public class Bazooka extends Actor
             int health = 0;
             if(explosive instanceof AlienExplosives)
             {
-                health = ((AlienExplosives)explosive).getHealthCount();
+                health = getExplosivesDamage(MyWorld.healthBazookaCounter.getValue(), (AlienExplosives) explosive);
+
                 getWorld().removeObject(this.getOneIntersectingObject(AlienExplosives.class));
                 weaponDecorator.generateBlast(planex, planey);
                 if (MyWorld.healthBazookaCounter.getValue() <= 0)
