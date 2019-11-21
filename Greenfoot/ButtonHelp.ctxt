@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=ButtonHelp
+comment1.params=
+comment1.target=void\ click()
+comment2.params=
+comment2.target=void\ act()
+comment3.params=cmd
+comment3.target=void\ setCommand(ICommand)
+numComments=4
