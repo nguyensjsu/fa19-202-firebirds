@@ -10,18 +10,15 @@ public class Score extends World
         showFinalScore();
     }
     
-    public void showFinalScore(){
-    
-        
-     showText(" You Could Score A :", 240, 250);
-     showText(Integer.toString(MyWorld.getHealthCounter().getValue()),370,250);
-     
+    public void showFinalScore()
+    {   
+        showText(" Your Final Score :", 240, 250);
+        showText(Integer.toString(MyWorld.getScoreCounter().getValue()),370,250);
     }
     
     
-    public void act(){
-    
-      
+    public void act()
+    { 
     }
    
 }

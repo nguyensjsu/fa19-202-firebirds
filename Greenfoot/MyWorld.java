@@ -80,12 +80,14 @@ public class MyWorld extends World implements Subject
 
         if(scoreCntr.getValue() > levelsStrategy.getLevelPassingScore()) {
             levelUp() ;
-            if(levelsStrategy != null)
+            if(levelsStrategy != null) {
                 setBackground(levelsStrategy.getBackgroundImage());
+            }
         }
 
-        if(getBackground() != null)
+        if(getBackground() != null) {
             scrollBackground();
+        }
     }
 
     public void notifyObserver(int X1, int X2) {
@@ -110,5 +112,10 @@ public class MyWorld extends World implements Subject
     public static Counter getHealthCounter()
     {
        return healthBazookaCounter;
-   }
+    }
+
+    public static Counter getScoreCounter()
+    {
+        return scoreCntr;
+    }
 }
