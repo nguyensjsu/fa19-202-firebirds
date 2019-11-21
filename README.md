@@ -60,6 +60,11 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ## UML Diagrams
 
+Activity Diagram
+
+![Activity](https://user-images.githubusercontent.com/55175861/69290299-5cf80b80-0bb4-11ea-84ec-898069040c9e.png)
+
+
 Command Pattern
 
 ![Command](https://user-images.githubusercontent.com/55175861/69271649-155c8a00-0b8a-11ea-93e4-689e42b9469d.png)
