@@ -12,9 +12,9 @@ Greenfoot
 
 <h3>Participants</h3>
 
-1.	Spaceship – Attacks the aliens
-2.	Fire and Water – Spaceship weapons
-3.	Aliens (2 Types- Green and Purple)- Enemies
+1.	Bazooka – Attacks the aliens
+2.	Fire and lazer beam – Bazooka's weapons
+3.	Aliens (3 Types- Orange,Red and Yellow)- Enemies
 4.	Explosive - Aliens Weapons
 
 <h3>Functionality</h3>
