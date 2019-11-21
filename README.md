@@ -81,7 +81,7 @@ Decorator Pattern
 
 
 ## Design Pattern Notes
-https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes
+https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes.md
 
 
 ## Sprint Meeting Report

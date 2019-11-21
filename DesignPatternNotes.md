@@ -12,7 +12,10 @@ When the player achieves a certain score, the client just has to switch from usi
 Alien spawning rate, background and speed of game are behaviors defined LevelsStrategy.
 These automatically change when the LevelsStrategy instance changes, without the knowledge of the client.
 
+**Observer Pattern**
+
 Feature: 
+
 
 Explanation: 
 
