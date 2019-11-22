@@ -19,7 +19,11 @@ Updating scores and health
 
 Explanation: 
 Observer pattern defines a 1:Many dependency, such that when one objects changes its dependents are notified and get updated. 
-Score and Health class are updated using this pattern.
+
+Score is updated using this pattern.
+The Alien class is an Observer, while the MyWorld class is the Subject.
+Whenever a Weapon touches an alien, MyWorld notifies the Alien of this event.
+The Alien destructs itself and updates the score.
 
 
 **Command Pattern**
