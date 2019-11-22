@@ -1,3 +1,8 @@
+/*
+1. Sets counter for scores
+2. Updates score values
+*/
+
 import greenfoot.*;
  
 public class Counter extends Actor
@@ -10,7 +15,7 @@ public class Counter extends Actor
     private String text_before;
   
     
-      public Counter(String text_before)
+    public Counter(String text_before)
     {
         bg= getImage();  
         this.text_before = text_before;
@@ -30,7 +35,6 @@ public class Counter extends Actor
          updateImage();
        
     }
-
     
     public int getValue()
     {
@@ -42,9 +46,7 @@ public class Counter extends Actor
       
     }
 
-  
-
-     private void updateImage()
+    private void updateImage()
     {
         GreenfootImage image = new GreenfootImage(bg);
         GreenfootImage text = new GreenfootImage(text_before + value , 14, Color.WHITE, color);
@@ -60,13 +62,13 @@ public class Counter extends Actor
     } 
   
     
-  
     public void setPrefix(String text_before)
     {
         this.text_before = text_before;
         updateImage();
     }
-  public void setValue(int latest)
+  
+    public void setValue(int latest)
     {
         target = latest;
         value = latest;
