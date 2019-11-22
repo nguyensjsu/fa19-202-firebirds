@@ -36,8 +36,17 @@ Help button triggers a new page with instructions on game strategies and other u
 **Factory Pattern**
 
 Feature:
-Different types of Alien explosive objects 
+Different types of Alien objects 
 
 Explanation:
 Factory Pattern is a creational pattern that creates an object for the class that uses it while at the same time hiding the object creation logic.
-In the game, 3 alien explosives, bomb, metal and grenade are created from AlienExplosiveFactory. Since the game requires multiple different types of instances of explosives used by different types of aliens, we found it best to make use of (Creational) Fatory Pattern. 
+In the game, 3 alien objects, orange, yellow and red are created from Alien super class. Alien Explosive Factory associates respective bombs to the 3 specific alien objects. Alien Factory gets the alien objects from Alien super class, without knowing how 3 alien objects behave internally.
+
+**Decorator Pattern**
+
+Feature: The way the blast looks
+
+Explanation:
+Decorator Pattern can be defined as, when an object is called, a behavior is added to that specific object without affecting other object. Blast Generator generates Blast, Only after blast object is created does it decide if it is a Wideblast object or Strongblast object. The blast type does not affect any other classes within the game. Blast type is purely an added on decoration to the blast 
+
+
