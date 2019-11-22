@@ -16,12 +16,29 @@
 ## Project Name
 ### Astral Alpha
 
+## Platform
+### Greenfoot
 
-## Burndown Map
-URL
+## Participants
+
+Bazooka – Protagonist - Attacks the aliens
+Fire and lazer beam – Bazooka's weapons
+Aliens (3 Types- Orange,Red and Yellow)- Enemies
+Explosive - Aliens Weapons
+
+## Functionality
+The initial screen will have Play and Help buttons.
+Help displays some basic instructions about the game.
+On clicking Play, the Bazooka is constantly moving to the right side of the screen, trying to avoid the attacks from aliens and destroying them with fire/laser attacks.
+The aliens are constantly throwing explosives.
+There will be a background sound that starts as soon as player clicks on Play and whenever the player or aliens are attacking, there will be a sound of blast.
+There is a “Health” attribute of spaceship that reduces if the spaceship is attacked by aliens. The game stops when Health == 0
+There is a “Score” attribute that increases when spaceship attacks the aliens. When player reaches score more than 100, the background changes to show another planet. When player reaches more than 200, player wins.
+In the end, a screen displays the final score of the user.
 
 ## UI Mock screen
 ![](images/mock1.png)
+
 
 ## Individual Contributions
 1. Sheethal Mathew
@@ -66,7 +83,9 @@ Use Case Diagram
 
 Use Case Document for Attack Scenario
 
-<img width="647" alt="UseCaseDocument" src="https://user-images.githubusercontent.com/55175861/69388338-600afe80-0c7d-11ea-8efd-88970a64247a.png">
+
+<img width="478" alt="UseCaseDocument" src="https://user-images.githubusercontent.com/55175861/69388603-3b635680-0c7e-11ea-8c1b-7ef8ec40c487.png">
+
 
 
 Sequence Diagram for the Attack Scenario
