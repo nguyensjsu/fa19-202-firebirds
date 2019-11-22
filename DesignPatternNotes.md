@@ -9,7 +9,7 @@ Strategy pattern allows developing a family of interchangeable algorithms by enc
 In our case, MyWorld is a client that uses LevelsStrategy.
 LevelFirstStrategy and LevelSecondStrategy are two child implementations of LevelsStrategy.
 When the player achieves a certain score, the client just has to switch from using one strategy to another.
-Alien spawning rate, background and speed of game are behaviors defined LevelsStrategy.
+Alien spawning rate, background and speed of game are behaviors defined in LevelsStrategy.
 These automatically change when the LevelsStrategy instance changes, without the knowledge of the client.
 
 **Observer Pattern**
@@ -22,8 +22,10 @@ Observer pattern defines a 1:Many dependency, such that when one objects changes
 Score and Health class are updated using this pattern.
 
 
-
-Feature: 
+**Command Pattern**
+Feature: Play &  Help Initiation
 
 Explanation: 
-
+Command pattern encapsulate all the information needed to trigger an event. 
+In the game, Play button triggers My World to instatiate. Once it is hit, the pilot(Bazooka) moves to the right and Aliens randomly throws the weapon at the pilot. 
+Help button triggers a new page with instructions on game strategies and other useful information.
