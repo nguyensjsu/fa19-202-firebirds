@@ -10,7 +10,7 @@
 * [Mayura Dhivya Nehruji](https://github.com/MayuraDhivyaNehruji) - 012434461
 * [Prathamesh Karve](https://github.com/prathamr) - 013850928
 * [Sonia Mannan](https://github.com/) - 
-* [Sheethal Mathew](https://github.com/) - 
+* [Sheethal Mathew](https://github.com/) - 009558393
 
 
 ## Project Name
@@ -42,7 +42,10 @@
 
 ## Individual Contributions
 1. Sheethal Mathew
-
+A. Refined Requirement
+B. Sprint Task Sheet for Sprints
+C. Helped with Help button
+D. Testing
 
 2. Sonia Mannan
 
@@ -78,7 +81,7 @@ https://github.com/nguyensjsu/fa19-202-firebirds/projects/1
 
 Sprint(Screenshot) 
 
-
+https://github.com/nguyensjsu/fa19-202-firebirds/blob/master/SprintTaskSheet.xlsx
 Burndown (Screenshot)
 
 
