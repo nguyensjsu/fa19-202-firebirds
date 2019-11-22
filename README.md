@@ -52,6 +52,15 @@ D. Testing
 
 3. **Prathamesh Karve**
 
+A. Implemented Level Strategy Pattern
+
+B. Added design notes for Observer and Strategy pattern
+
+C. Added class diagrams for Observer and Strategy pattern
+
+D. Helped in maintaining readme documentation
+
+E. Added sounds for the game and ad video
 
 4. **Mayura Dhivya Nehruji**
 
