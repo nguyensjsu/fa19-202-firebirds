@@ -90,12 +90,11 @@ https://github.com/nguyensjsu/fa19-202-firebirds/projects/1
 ## Sprint Task Sheet:
 
 Sprint(Screenshot) 
+![](images/SprintTask.PNG)
 
-https://github.com/nguyensjsu/fa19-202-firebirds/blob/master/SprintTaskSheet.xlsx
+
 Burndown (Screenshot)
-
-
-https://github.com/nguyensjsu/fa19-202-firebirds/blob/master/SprintTaskSheet.xlsx
+![](images/burndown.PNG)
 
 
 ## Daily Standup Video
