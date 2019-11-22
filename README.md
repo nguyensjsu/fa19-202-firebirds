@@ -55,6 +55,15 @@
 
 5. Harshada Baswaraj Jivane
 
+A. Designed Requirement Document and reviewed with the team.
+B. Setting up git README on git with class diagrams for factory,Decorator and Command Pattern.
+C. Ideation of user story video and Worked on user story video with team.
+D. Designed classes and interfaces for alien explosives and Game's MyWorld(Entry)
+E. Designed classes for Command Pattern (Help).
+F. Implemented Help feature and Alien Explosives using Factory Pattern.
+G. Designed Activity and sequence diagram for the game.
+H. Tested overall game features.
+
 ## Project Task Board:
 https://github.com/nguyensjsu/fa19-202-firebirds/projects/1
 
