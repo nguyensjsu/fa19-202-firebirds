@@ -51,6 +51,5 @@ In the game, 3 alien objects, orange, yellow and red are created from Alien supe
 Feature: The way the blast looks
 
 Explanation:
-Decorator Pattern can be defined as, when an object is called, a behavior is added to that specific object without affecting other object. Blast Generator generates Blast, Only after blast object is created does it decide if it is a Wideblast object or Strongblast object. The blast type does not affect any other classes within the game. Blast type is purely an added on decoration to the blast 
-
+Decorator Pattern can be defined as, when an object is called, a behavior is added to that specific object without affecting other object. Blast Generator generates Blast, Only after blast object is created does it decide if it is a Wideblast object or Strongblast object. Decorator pattern allows adding new behaviors to objects dynamically by placing them inside special wrapper objects. Here, using decorators we wrapped a strong blast inside wide blast.
 
