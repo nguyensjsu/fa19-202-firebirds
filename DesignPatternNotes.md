@@ -23,9 +23,21 @@ Score and Health class are updated using this pattern.
 
 
 **Command Pattern**
-Feature: Play &  Help Initiation
+
+Feature: 
+Play &  Help Initiation
 
 Explanation: 
 Command pattern encapsulate all the information needed to trigger an event. 
 In the game, Play button triggers My World to instatiate. Once it is hit, the pilot(Bazooka) moves to the right and Aliens randomly throws the weapon at the pilot. 
 Help button triggers a new page with instructions on game strategies and other useful information.
+
+
+**Factory Pattern**
+
+Feature:
+Different types of Alien objects 
+
+Explanation:
+Factory Pattern is a creational pattern that creates an object for the class that uses it while at the same time hiding the object creation logic.
+In the game, 3 alien objects, orange, yellow and red are created from Alien super class. Alien Explosive Factory associates respective bombs to the 3 specific alien objects. Alien Factory gets the alien objects from Alien super class, without knowing how 3 alien objects behave internally.
