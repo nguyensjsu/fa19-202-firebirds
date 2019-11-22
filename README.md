@@ -41,22 +41,22 @@
 
 
 ## Individual Contributions
-1. Sheethal Mathew
+1. **Sheethal Mathew**
 A. Refined Requirement
 B. Sprint Task Sheet for Sprints
 C. Helped with Help button
 D. Testing
 
-2. Sonia Mannan
+2. **Sonia Mannan**
 
 
-3. Prathamesh Karve
+3. **Prathamesh Karve**
 
 
-4. Mayura Dhivya Nehruji
+4. **Mayura Dhivya Nehruji**
 
 
-5. Harshada Baswaraj Jivane
+5. **Harshada Baswaraj Jivane**
 
 A. Designed Requirement Document and reviewed with the team.
 
