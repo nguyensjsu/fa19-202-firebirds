@@ -79,7 +79,8 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 Use Case Diagram
 
-![UseCaseDiagram](https://user-images.githubusercontent.com/55175861/69388046-841a1000-0c7c-11ea-9160-57792fa4065a.png)
+![UseCaseDiagram](https://user-images.githubusercontent.com/55175861/69395956-9ce2ef80-0c95-11ea-9c13-1de714bf0fd8.png)
+
 
 
 Sequence Diagram for the Attack Scenario
@@ -121,7 +122,7 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/WeeklyReport/Week-1
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/WeeklyReport/Week-2
 
 ## Ad Video
-URL
+https://youtu.be/iBuHcXx70g8
 
 ## Game Demo
 URL
