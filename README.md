@@ -60,6 +60,19 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ## UML Diagrams
 
+Use Case Diagram
+
+![UseCaseDiagram](https://user-images.githubusercontent.com/55175861/69388046-841a1000-0c7c-11ea-9160-57792fa4065a.png)
+
+Use Case Document for Attack Scenario
+
+<img width="647" alt="UseCaseDocument" src="https://user-images.githubusercontent.com/55175861/69388338-600afe80-0c7d-11ea-8efd-88970a64247a.png">
+
+
+Sequence Diagram for the Attack Scenario
+![Attack](https://user-images.githubusercontent.com/55175861/69387951-44ebbf00-0c7c-11ea-9a64-dc0f1af27b9c.png)
+
+
 Activity Diagram
 
 ![Activity](https://user-images.githubusercontent.com/55175861/69300035-fdefc200-0bc6-11ea-8218-6dfddbbe229f.png)
