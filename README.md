@@ -1,4 +1,4 @@
-# Team Hackathon Project - Game:
+# Team Hackathon Project - Game
 
 ## Team Name
 
@@ -80,12 +80,6 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 Use Case Diagram
 
 ![UseCaseDiagram](https://user-images.githubusercontent.com/55175861/69388046-841a1000-0c7c-11ea-9160-57792fa4065a.png)
-
-Use Case Document for Attack Scenario
-
-
-<img width="637" alt="UseCaseDocument" src="https://user-images.githubusercontent.com/55175861/69388844-1cb18f80-0c7f-11ea-94c4-4216ccefeb44.png">
-
 
 
 Sequence Diagram for the Attack Scenario
