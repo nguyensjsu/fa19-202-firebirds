@@ -44,8 +44,9 @@
 1. **Sheethal Mathew**
 A. Refined Requirement
 B. Sprint Task Sheet for Sprints
-C. Helped with Help button
-D. Testing
+C. Helped with Help 
+D. UI images
+E. Testing
 
 2. **Sonia Mannan**
 
