@@ -23,5 +23,7 @@ public class StrongBlast extends Blast
     	com.generateBlast(x, y);
     	
     	MyWorld.myWorld.addObject(this, x, y);
+	Greenfoot.playSound("bombex.mp3");
+	
     }    
 }
