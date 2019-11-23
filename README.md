@@ -158,6 +158,8 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 ## Design Pattern Notes
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes.md
 
+## Testcases
+https://github.com/nguyensjsu/fa19-202-firebirds/testcases.docx
 
 ## Sprint Meeting Report
 
