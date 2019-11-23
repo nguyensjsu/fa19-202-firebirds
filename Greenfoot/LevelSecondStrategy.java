@@ -1,7 +1,7 @@
 import greenfoot.Greenfoot;
 
 
-public class LevelSecondStrategy implements LevelsStrategy{
+public class LevelSecondStrategy implements ILevelsStrategy{
 
 	private int winningScore = 200;
 	
@@ -16,7 +16,7 @@ public class LevelSecondStrategy implements LevelsStrategy{
 		return GameSupport.getAngleInRange(40, 60) + 180;
 	}
 
-	public LevelsStrategy getNextLevelStrategy() {
+	public ILevelsStrategy getNextLevelStrategy() {
 		
 		Greenfoot.setWorld(new Score());
 		return this;

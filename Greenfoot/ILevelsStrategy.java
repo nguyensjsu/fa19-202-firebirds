@@ -1,5 +1,5 @@
 
-public interface LevelsStrategy {
+public interface ILevelsStrategy {
 public int getRandom();
 	
 	public String getBackgroundImage();
@@ -8,7 +8,7 @@ public int getRandom();
 
 	public int getLevelPassingScore();
 
-	public LevelsStrategy getNextLevelStrategy();
+	public ILevelsStrategy getNextLevelStrategy();
 
 	public  double getAngle(int x2, int y2);
 

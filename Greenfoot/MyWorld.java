@@ -20,7 +20,7 @@ import greenfoot.*;
 public class MyWorld extends World implements Subject {
 
     static public Counter healthBazookaCounter;
-    static public LevelsStrategy levelsStrategy = new LevelFirstStrategy();
+    static public ILevelsStrategy levelsStrategy = new LevelFirstStrategy();
     static private ConcurrentHashMap<Integer, Observer> aliens = new ConcurrentHashMap<Integer, Observer>();
     static public Counter scoreCntr;
     static BigDecimal travelDistance = new BigDecimal(0);

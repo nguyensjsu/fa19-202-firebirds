@@ -1,10 +1,10 @@
 import greenfoot.export.mygame.MyGameClient;
 
 
-public class LevelFirstStrategy implements LevelsStrategy{
+public class LevelFirstStrategy implements ILevelsStrategy{
 
     
-    private LevelsStrategy secondLevelStrategy;
+    private ILevelsStrategy secondLevelStrategy;
     private int winningScore = 100;
       
     public LevelFirstStrategy() {
@@ -12,7 +12,7 @@ public class LevelFirstStrategy implements LevelsStrategy{
         secondLevelStrategy = new LevelSecondStrategy();
     }
 
-    public LevelsStrategy getNextLevelStrategy() {
+    public ILevelsStrategy getNextLevelStrategy() {
         return secondLevelStrategy;
     }
 
