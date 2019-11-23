@@ -58,20 +58,29 @@ F. Worked on Blast classes
 
 2. **Sonia Mannan**
 
-- Implemented Bazooka and weapons feature
-- Implemented Alien spawning feature
-- Implemented score feature
-- Implemented end game message feature
-- Requirements and testing
+A. Implemented Bazooka and weapons feature
+
+B. Implemented Alien spawning feature
+
+C. Implemented score feature
+
+D. Implemented end game message feature
+
+E. Requirements and testing
 
 3. **Prathamesh Karve**
 
-* Implemented Level Strategy Pattern
-* Added design notes for Observer and Strategy pattern
-* Added class diagrams for Observer and Strategy pattern
-* Helped in maintaining readme documentation
-* Added sounds for the game and ad video
-* Implemented different types of aliens
+A. Implemented Level Strategy Pattern
+
+B. Added design notes for Observer and Strategy pattern
+
+C. Added class diagrams for Observer and Strategy pattern
+
+D. Helped in maintaining readme documentation
+
+E. Added sounds for the game and ad video
+
+F. Implemented different types of aliens
 
 4. **Mayura Dhivya Nehruji**
 
@@ -172,6 +181,9 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes.md
 
 ## Testcases
+
+<img width="697" alt="TestCases" src="https://user-images.githubusercontent.com/55175861/69475467-5ae3a780-0d82-11ea-9e40-e8ee35ee6882.png">
+
 https://github.com/nguyensjsu/fa19-202-firebirds/testcases.docx
 
 ## Sprint Meeting Report
