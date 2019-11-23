@@ -42,7 +42,7 @@
 ## GAME NAVIGATION
 ![](images/start.png)
 
-![](images/help.png)
+![](images/tuts.png)
 
 ![](images/level1initial.png)
 
@@ -50,7 +50,7 @@
 
 ![](images/hit.png)
 
-![](images/laserbeam.png)
+![](images/laser.png)
 
 ![](images/level2.png)
 
