@@ -75,11 +75,18 @@ F. Worked on Blast classes
 
 4. **Mayura Dhivya Nehruji**
 A. UI revamp  from the initial mockup.
+
 B: Blocker addressed: Opaque image
+
 C. Added Sound Effects for the game.
+
 D. Videos of the sprint retrospective and stand up meeting
-E. Helped with the health feature of the pilot
-F. Testing.
+
+E. Helped with the health feature of the pilot.
+
+F. Worked on Counter Class
+
+G.Testing
 
 
 5. **Harshada Baswaraj Jivane**
