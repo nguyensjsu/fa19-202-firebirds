@@ -236,5 +236,12 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/WeeklyReport/Week-2
 ## Ad Video
 https://youtu.be/iBuHcXx70g8
 
+## Retrospective Video
+
+https://youtu.be/QojuksmWwpU
+
+## StandUp Video
+
+https://youtu.be/Eqgmjsja1lI
 ## Game Demo
 URL
