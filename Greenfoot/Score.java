@@ -27,6 +27,8 @@ public class Score extends World {
 
         if (MyWorld.getHealthCounter().getValue() <= 0 && MyWorld.getScoreCounter().getValue() < 200) {
             message = " You lost, Game over! Your Final Score: ";
+            showText(message, 240, 250);
+            showText(Integer.toString(MyWorld.getScoreCounter().getValue()), 480, 250);
         }
         if (MyWorld.getHealthCounter().getValue() > 0 && MyWorld.getScoreCounter().getValue() > 200) {
             showText(message, 240, 250);
@@ -36,6 +38,7 @@ public class Score extends World {
         else {
             message = " You lost, Game over! Your Final Score: ";
             showText(message, 240, 250);
+            showText(Integer.toString(MyWorld.getScoreCounter().getValue()), 480, 250);
         }
     }
 
