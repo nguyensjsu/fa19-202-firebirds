@@ -8,6 +8,7 @@ public class Score extends World
     {    
         super(1100, 700, 1); 
         showFinalScore();
+        Greenfoot.playSound("win.wav");
     }
     
     public void showFinalScore()
