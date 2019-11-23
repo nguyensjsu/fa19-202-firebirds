@@ -1,14 +1,14 @@
 import greenfoot.Greenfoot;
 
 
-public class LevelSecondStrategy implements LevelsStrategy{
+public class LevelSecondStrategy implements ILevelsStrategy{
 
 	private int winningScore = 200;
 	
 	
 	public String getBackgroundImage() {
 		
-		return "l2space.gif";
+		return "b3.png";
 	}
 
 	public double getAngle(int x2, int y2) {
@@ -16,7 +16,7 @@ public class LevelSecondStrategy implements LevelsStrategy{
 		return GameSupport.getAngleInRange(40, 60) + 180;
 	}
 
-	public LevelsStrategy getNextLevelStrategy() {
+	public ILevelsStrategy getNextLevelStrategy() {
 		
 		Greenfoot.setWorld(new Score());
 		return this;

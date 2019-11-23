@@ -1,0 +1,13 @@
+Day 1 : Video of the Retrospective and the Stand up meeting
+
+Day 2 :	Health feature  update and Blocker addressed : Opaque image - solved 
+
+Day 3 :	UI Changes
+
+Day 4 :	Sound Effects 
+
+Day 5 : Final Complete UI and Sound Effects for the game 
+
+Day 6 : Tested game features, Integration testing.
+
+Day 7 : Game Demo 

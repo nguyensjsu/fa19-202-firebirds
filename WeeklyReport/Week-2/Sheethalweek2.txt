@@ -1,0 +1,13 @@
+Day 1 : Understood the relation between aliens and explosives
+
+Day 2 :	Refined Requirements
+
+Day 3 :	Sprint Task Allocation & Updation
+
+Day 4 :	Enhanced help feature 
+
+Day 5 : Enhanced UI, overall look of the game
+
+Day 6 : Tested game features, Integration testing.
+
+Day 7 : Game Demo 

@@ -11,6 +11,8 @@ public class RedAlien extends Aliens
 
     public RedAlien()
     {
+        GreenfootImage image = new GreenfootImage("redship.png");
+        setImage(image);
         score = 20;
         health = 40;
         alienexplosiveFactory = new BombFactory();
