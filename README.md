@@ -139,6 +139,10 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ![decorator](images/Strategy-cd.png)
 
+**Observer Pattern Class Diagram**
+
+![decorator](images/Observer-cd.png)
+
 
 ## Design Pattern Notes
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes.md
