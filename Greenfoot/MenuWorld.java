@@ -6,7 +6,7 @@
 import greenfoot.*;
 
 public class MenuWorld extends World {
-public GreenfootSound bgm = new GreenfootSound("main.mp3");
+public GreenfootSound bgm = new GreenfootSound("take.mp3");
     /**
      * Constructor for objects of MenuWorld
      */
