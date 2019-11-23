@@ -50,11 +50,11 @@ E. Testing
 F. Worked on Blast classes
 2. **Sonia Mannan**
 
-Implemented Bazooka and weapons feature
-Implemented Alien spawning feature
-Implemented score feature
-Implemented end game message feature
-Requirements and testing
+- Implemented Bazooka and weapons feature
+- Implemented Alien spawning feature
+- Implemented score feature
+- Implemented end game message feature
+- Requirements and testing
 
 3. **Prathamesh Karve**
 
