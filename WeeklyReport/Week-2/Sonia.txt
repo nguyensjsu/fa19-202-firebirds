@@ -1,0 +1,13 @@
+Day 1: Sprint retrospective and requirements specifications
+
+Day 2: Player score updates
+
+Day 3: Add more score features to Aliens
+
+Day 4: Different weapons damage for player, random Alien spawning
+
+Day 5: Different end game messages
+
+Day 6: Work on demo
+
+Day 7: Demo

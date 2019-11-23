@@ -1,0 +1,13 @@
+Day 1: Meet teammates
+
+Day 2: Set up repository
+
+Day 3: Developed a game idea
+
+Day 4: Gather requirements
+
+Day 5: Talk about high-level design patterns
+
+Day 6: Install and work with Greenfoot IDE
+
+Day 7: User story demo
