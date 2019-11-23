@@ -1,5 +1,5 @@
 import greenfoot.Greenfoot;
-
+/*Concrete Component class for Decorator Pattern*/
 
 public class ConcreteBlast implements BlastGenerator {
 
