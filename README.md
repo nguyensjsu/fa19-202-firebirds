@@ -9,7 +9,7 @@
 * [Harshada Baswaraj Jivane](https://github.com/harshadajiv) - 013855751
 * [Mayura Dhivya Nehruji](https://github.com/MayuraDhivyaNehruji) - 012434461
 * [Prathamesh Karve](https://github.com/prathamr) - 013850928
-* [Sonia Mannan](https://github.com/) - 
+* [Sonia Mannan](https://github.com/) - 009009117
 * [Sheethal Mathew](https://github.com/) - 009558393
 
 
@@ -50,6 +50,11 @@ E. Testing
 F. Worked on Blast classes
 2. **Sonia Mannan**
 
+- Implemented Bazooka and weapons feature
+- Implemented Alien spawning feature
+- Implemented score feature
+- Implemented end game message feature
+- Requirements and testing
 
 3. **Prathamesh Karve**
 
