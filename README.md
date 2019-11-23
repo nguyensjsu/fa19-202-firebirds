@@ -44,10 +44,10 @@
 1. **Sheethal Mathew**
 A. Refined Requirement
 B. Sprint Task Sheet for Sprints
-C. Helped with Help 
+C. Helped with Help Button
 D. UI images
 E. Testing
-
+F. Worked on Blast classes
 2. **Sonia Mannan**
 
 Implemented Bazooka and weapons feature
