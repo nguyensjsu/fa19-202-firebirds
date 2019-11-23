@@ -58,15 +58,12 @@ F. Worked on Blast classes
 
 3. **Prathamesh Karve**
 
-A. Implemented Level Strategy Pattern
-
-B. Added design notes for Observer and Strategy pattern
-
-C. Added class diagrams for Observer and Strategy pattern
-
-D. Helped in maintaining readme documentation
-
-E. Added sounds for the game and ad video
+* Implemented Level Strategy Pattern
+* Added design notes for Observer and Strategy pattern
+* Added class diagrams for Observer and Strategy pattern
+* Helped in maintaining readme documentation
+* Added sounds for the game and ad video
+* Implemented different types of aliens
 
 4. **Mayura Dhivya Nehruji**
 A. UI revamp  from the initial mockup.
