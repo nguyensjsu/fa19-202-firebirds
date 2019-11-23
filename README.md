@@ -74,6 +74,7 @@ F. Worked on Blast classes
 * Implemented different types of aliens
 
 4. **Mayura Dhivya Nehruji**
+
 A. UI revamp  from the initial mockup.
 
 B: Blocker addressed: Opaque image
