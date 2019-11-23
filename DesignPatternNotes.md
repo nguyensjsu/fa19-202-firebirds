@@ -37,13 +37,13 @@ In the game, Play button triggers My World to instatiate. Once it is hit, the pi
 Help button triggers a new page with instructions on game strategies and other useful information.
 
 
-## Factory Pattern
+## Factory Method Pattern
 
 **Feature**</br>
 Different types of Alien objects 
 
 **Explanation**</br>
-Factory Pattern is a creational pattern that creates an object for the class that uses it while at the same time hiding the object creation logic.
+Factory Method Pattern is a creational pattern that creates an object for the class that uses it while at the same time hiding the object creation logic.
 In the game, 3 alien objects, orange, yellow and red are created from Alien super class. Alien Explosive Factory associates respective bombs to the 3 specific alien objects. Alien Factory gets the alien objects from Alien super class, without knowing how 3 alien objects behave internally.
 
 ## Decorator Pattern

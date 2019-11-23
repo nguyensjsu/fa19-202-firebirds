@@ -45,7 +45,7 @@ Gaming Points
 
 <img width="1106" alt="Scoring" src="https://user-images.githubusercontent.com/55175861/69485747-96b95400-0df8-11ea-816b-0336646c43c0.png">
 
-Menu Pagge of Game
+Menu Page of Game
 ![](images/start.png)
 
 Help Page
