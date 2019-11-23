@@ -6,13 +6,14 @@
 import greenfoot.*;
 
 public class MenuWorld extends World {
-
+public GreenfootSound bgm = new GreenfootSound("main.mp3");
     /**
      * Constructor for objects of MenuWorld
      */
     public MenuWorld() {
 
         super(1100, 700, 1);
+        bgm.playLoop();
         prepare();
     }
 
@@ -39,7 +40,7 @@ public class MenuWorld extends World {
         addObject(bp, 450, 251);
         addObject(bh, 650, 251);
 
-        // Greenfoot.playSound("backgroundmusic.mp3");
+       
 
     }
 
