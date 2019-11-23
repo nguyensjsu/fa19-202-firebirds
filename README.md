@@ -133,7 +133,7 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 **Decorator Pattern Class Diagram**
 
-![decorator](https://user-images.githubusercontent.com/55175861/69271830-6ff5e600-0b8a-11ea-897c-72a9bca88d1e.png)
+![Decorator](https://user-images.githubusercontent.com/55175861/69471532-26a5c200-0d55-11ea-960b-f86a2361d95b.png)
 
 **Strategy Pattern Class Diagram**
 
