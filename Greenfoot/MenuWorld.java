@@ -13,6 +13,8 @@ public GreenfootSound bgm = new GreenfootSound("main.mp3");
     public MenuWorld() {
 
         super(1100, 700, 1);
+        GreenfootImage image = new GreenfootImage("menu.jpeg");
+        setBackground(image);
         bgm.playLoop();
         prepare();
     }
