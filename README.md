@@ -64,6 +64,11 @@ D. Helped in maintaining readme documentation
 E. Added sounds for the game and ad video
 
 4. **Mayura Dhivya Nehruji**
+A. UI revamp  from the initial mockup.
+B. Added Sound Effects for the game.
+C. Video of the sprint retrospective and stand up
+D. helped with the health feature of the pilot
+E. Testing.
 
 
 5. **Harshada Baswaraj Jivane**
