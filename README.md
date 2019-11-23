@@ -135,6 +135,10 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ![decorator](https://user-images.githubusercontent.com/55175861/69271830-6ff5e600-0b8a-11ea-897c-72a9bca88d1e.png)
 
+**Strategy Pattern Class Diagram**
+
+![decorator](images/Strategy-cd.png)
+
 
 ## Design Pattern Notes
 https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/DesignPatternNotes.md
