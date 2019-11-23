@@ -40,22 +40,29 @@
 ![](images/mock1.png)
 
 ## GAME NAVIGATION
+Menu Pagge of Game
 ![](images/start.png)
 
+Help Page
 ![](images/tuts.png)
 
+Level 1
 ![](images/level1initial.png)
 
+During the level 1
 ![](images/gameplay.png)
 
 ![](images/hit.png)
 
 ![](images/laser.png)
 
+Level 2
 ![](images/level2.png)
 
+When gamer wins
 ![](images/winend.png)
 
+When gamer loses
 ![](images/lostend.png)
 
 
