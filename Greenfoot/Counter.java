@@ -4,79 +4,77 @@
 */
 
 import greenfoot.*;
- 
-public class Counter extends Actor
-{
+
+public class Counter extends Actor {
     private int value;
     private int target;
-    
-    private static final Color color = new Color(0,0,0,0);
+
+    private static final Color color = new Color(0, 0, 0, 0);
     private GreenfootImage bg;
     private String text_before;
-  
-    
-    public Counter(String text_before)
-    {
-        bg= getImage();  
+
+    /**
+     * Constructor for objects of class Counter
+     */
+    public Counter(String text_before) {
+        bg = getImage();
         this.text_before = text_before;
         value = 0;
         target = 0;
-        
+
     }
-    
-    public Counter()
-    {
+
+    /**
+     * Constructor for objects of class Counter with no parameters
+     */
+    public Counter() {
         this(new String());
     }
 
- 
-    public void act() 
-    {
-         updateImage();
-       
-    }
-    
-    public int getValue()
-    {
-        return value;
-    }
-    public void addScore(int score)
-    {
-        value += score;
-      
+    public void act() {
+        updateImage();
+
     }
 
-    private void updateImage()
-    {
+    /**
+     * Value Getter
+     */
+    public int getValue() {
+        return value;
+    }
+
+    /**
+     * Increments Score
+     */
+    public void addScore(int score) {
+        value += score;
+
+    }
+
+    private void updateImage() {
         GreenfootImage image = new GreenfootImage(bg);
-        GreenfootImage text = new GreenfootImage(text_before + value , 14, Color.WHITE, color);
-        
-        if (text.getWidth() > image.getWidth() - 20)
-        {
+        GreenfootImage text = new GreenfootImage(text_before + value, 14, Color.WHITE, color);
+
+        if (text.getWidth() > image.getWidth() - 20) {
             image.scale(text.getWidth() + 20, image.getHeight());
         }
-        
-        image.drawImage(text, (image.getWidth()-text.getWidth())/2, 
-                        (image.getHeight()-text.getHeight())/2);
+
+        image.drawImage(text, (image.getWidth() - text.getWidth()) / 2, (image.getHeight() - text.getHeight()) / 2);
         setImage(image);
-    } 
-  
-    
-    public void setPrefix(String text_before)
-    {
+    }
+
+    public void setPrefix(String text_before) {
         this.text_before = text_before;
         updateImage();
     }
-  
-    public void setValue(int latest)
-    {
+
+    /**
+     * Value Setter
+     */
+    public void setValue(int latest) {
         target = latest;
         value = latest;
         updateImage();
     }
-   
-   
-    
-    
- 
+
 }

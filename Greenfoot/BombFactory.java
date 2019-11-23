@@ -1,10 +1,14 @@
+/*
+*Factory class for Bomb generation
+*/
+public class BombFactory extends AlienExplosiveFactory {
 
-public class BombFactory extends AlienExplosiveFactory 
-{
-    
-@Override
+	/*
+	 * Returns a bomb object
+	 */
+	@Override
 	public AlienExplosives getExplosive() {
-		
+
 		return new Bomb();
 	}
 }
