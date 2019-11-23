@@ -39,6 +39,26 @@
 ## UI Mock screen
 ![](images/mock1.png)
 
+## GAME NAVIGATION
+![](images/start.png)
+
+![](images/help.png)
+
+![](images/level1initial.png)
+
+![](images/gameplay.png)
+
+![](images/hit.png)
+
+![](images/laserbeam.png)
+
+![](images/level2.png)
+
+![](images/winend.png)
+
+![](images/lostend.png)
+
+
 
 ## Individual Contributions
 1. **Sheethal Mathew**
