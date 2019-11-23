@@ -3,7 +3,8 @@ import java.util.List;
 
 import greenfoot.*; 
 
-
+/** The hero of the game. Pilot is Bazooka.
+*/
 public class Bazooka extends Actor
 {
     static Bazooka bazooka = new Bazooka();
@@ -30,7 +31,10 @@ public class Bazooka extends Actor
     {
         weaponDecorator = new StrongBlast(new ConcreteBlast());
     }
-
+    /*Calculates health based on hits recieved.
+       @param playerHealth, AlienExplosives
+       @return health
+    */
     private int getExplosivesDamage(int playerHealth, AlienExplosives explosive) {
         int health = explosive.getHealthCount();
 
@@ -45,7 +49,8 @@ public class Bazooka extends Actor
 
         return health;
     }
-    
+    /*Updates health score on new World object
+       Defines game logic of how the Pilot can move around, hit a target.*/
     public void act()
     {
         planey = getY();
@@ -168,7 +173,7 @@ public class Bazooka extends Actor
             Greenfoot.setWorld(new Score());
         }
     }
-   
+   /* It is a type of weapon that Bazooka can initiate on a target*/
     private void shootLaser()
     {
         if (!press_w && Greenfoot.isKeyDown("w"))
