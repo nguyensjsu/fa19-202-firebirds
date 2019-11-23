@@ -138,25 +138,13 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ## UML Diagrams
 
-**Use Case Diagram**
-
-![UseCaseDiagram](https://user-images.githubusercontent.com/55175861/69395956-9ce2ef80-0c95-11ea-9c13-1de714bf0fd8.png)
-
-
-
-**Sequence Diagram for the Attack Scenario**
-
-![Attack](https://user-images.githubusercontent.com/55175861/69387951-44ebbf00-0c7c-11ea-9a64-dc0f1af27b9c.png)
-
-
-**Activity Diagram**
-
-![Activity](https://user-images.githubusercontent.com/55175861/69300035-fdefc200-0bc6-11ea-8218-6dfddbbe229f.png)
-
-
 **Command Pattern Class Diagram**
 
 ![Command](https://user-images.githubusercontent.com/55175861/69271649-155c8a00-0b8a-11ea-93e4-689e42b9469d.png)
+
+**Observer Pattern Class Diagram**
+
+![decorator](images/Observer-cd.png)
 
 
 **Factory Pattern Class Diagram**
@@ -172,9 +160,26 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ![decorator](images/Strategy-cd.png)
 
-**Observer Pattern Class Diagram**
 
-![decorator](images/Observer-cd.png)
+**Use Case Diagram**
+
+![GameUseCase](https://user-images.githubusercontent.com/55175861/69476650-5377ca80-0d91-11ea-8701-b36ef39877c2.png)
+
+
+**Game's Sequence Diagram**
+
+![SequenceDiagram](https://user-images.githubusercontent.com/55175861/69476660-80c47880-0d91-11ea-858e-cd7d2e6482f7.png)
+
+
+**Sequence Diagram for the Attack Scenario**
+
+![AttackSequence](https://user-images.githubusercontent.com/55175861/69476653-67bbc780-0d91-11ea-914e-801545e64706.png)
+
+
+**Activity Diagram**
+
+![Activity](https://user-images.githubusercontent.com/55175861/69300035-fdefc200-0bc6-11ea-8218-6dfddbbe229f.png)
+
 
 
 ## Design Pattern Notes
