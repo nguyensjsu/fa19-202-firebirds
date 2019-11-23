@@ -21,7 +21,7 @@ public class LevelFirstStrategy implements ILevelsStrategy{
     }
 
     public String getBackgroundImage() {
-        return "space.jpg";
+        return "b1.png";
     }
 
     public int getStartCounterForLaunch() {

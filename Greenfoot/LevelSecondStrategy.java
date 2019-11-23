@@ -8,7 +8,7 @@ public class LevelSecondStrategy implements ILevelsStrategy{
 	
 	public String getBackgroundImage() {
 		
-		return "l2space.gif";
+		return "b3.png";
 	}
 
 	public double getAngle(int x2, int y2) {
