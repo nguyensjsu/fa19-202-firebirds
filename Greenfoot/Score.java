@@ -12,7 +12,11 @@ public class Score extends World {
      */
     public Score() {
         super(1100, 700, 1);
+        GreenfootImage image = new GreenfootImage("score.jpg");
+        setBackground(image);
         showFinalScore();
+        Greenfoot.playSound("win.wav");
+        
     }
 
     /**
