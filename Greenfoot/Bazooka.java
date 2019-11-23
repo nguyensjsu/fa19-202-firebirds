@@ -117,6 +117,7 @@ public class Bazooka extends Actor
             if (grenadeCount > 0)
             {
                 getWorld().addObject(new Fire(), getX(), getY());
+                Greenfoot.playSound("fire.mp3");
                 grenadeCount--;
             }
         }
@@ -132,6 +133,7 @@ public class Bazooka extends Actor
             if (bombCount > 0)
             {
                 getWorld().addObject(new Fire(), getX(), getY());
+                Greenfoot.playSound("fire.mp3");
                 bombCount--;
             }
         }
@@ -147,6 +149,7 @@ public class Bazooka extends Actor
             if (metalCount > 0)
             {
                 getWorld().addObject(new Fire(), getX(), getY());
+                Greenfoot.playSound("fire.mp3");
                 metalCount--;
             }
         }
@@ -172,6 +175,7 @@ public class Bazooka extends Actor
         {
             press_w = true;
             getWorld().addObject(new Laser(), getX(), getY());
+            Greenfoot.playSound("laser1.wav");
         }
        
         if (press_w && !Greenfoot.isKeyDown("w"))
