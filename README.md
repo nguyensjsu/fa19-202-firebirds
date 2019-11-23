@@ -105,32 +105,33 @@ https://github.com/nguyensjsu/fa19-202-firebirds/tree/master/Retrospective
 
 ## UML Diagrams
 
-Use Case Diagram
+**Use Case Diagram**
 
 ![UseCaseDiagram](https://user-images.githubusercontent.com/55175861/69395956-9ce2ef80-0c95-11ea-9c13-1de714bf0fd8.png)
 
 
 
-Sequence Diagram for the Attack Scenario
+**Sequence Diagram for the Attack Scenario**
+
 ![Attack](https://user-images.githubusercontent.com/55175861/69387951-44ebbf00-0c7c-11ea-9a64-dc0f1af27b9c.png)
 
 
-Activity Diagram
+**Activity Diagram**
 
 ![Activity](https://user-images.githubusercontent.com/55175861/69300035-fdefc200-0bc6-11ea-8218-6dfddbbe229f.png)
 
 
-Command Pattern
+**Command Pattern Class Diagram**
 
 ![Command](https://user-images.githubusercontent.com/55175861/69271649-155c8a00-0b8a-11ea-93e4-689e42b9469d.png)
 
 
-Factory Pattern
+**Factory Pattern Class Diagram**
 
 ![Factory](https://user-images.githubusercontent.com/55175861/69271894-93209580-0b8a-11ea-9593-d6a98aed77d7.png)
 
 
-Decorator Pattern
+**Decorator Pattern Class Diagram**
 
 ![decorator](https://user-images.githubusercontent.com/55175861/69271830-6ff5e600-0b8a-11ea-897c-72a9bca88d1e.png)
 
